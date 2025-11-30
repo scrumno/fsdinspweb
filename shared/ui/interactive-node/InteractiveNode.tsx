@@ -60,7 +60,7 @@ export const InteractiveNode = ({
 						}
           `}
 			>
-				<div className='absolute bottom-[-6px] left-1/2 -translate-x-1/2 w-3 h-3 bg-[#18181b] border-b border-r border-zinc-700 rotate-45'></div>
+				<div className='absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-[#18181b] border-b border-r border-zinc-700 rotate-45'></div>
 				<div className='flex items-center gap-2 mb-2 pb-2 border-b border-zinc-800'>
 					<Icon
 						size={14}
