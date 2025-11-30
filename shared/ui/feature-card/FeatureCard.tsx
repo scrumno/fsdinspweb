@@ -16,14 +16,23 @@ export const FeatureCard = ({
 	}
 
 	return (
-		<div className='p-6 rounded-xl bg-[#0e0e10] border border-zinc-800 hover:border-zinc-700 transition-all duration-300 group'>
+		<article
+			role='article'
+			aria-label={title}
+			className='p-4 sm:p-6 rounded-xl bg-[#0e0e10] border border-zinc-800 hover:border-zinc-700 transition-all duration-300 group flex flex-col h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-zinc-700'
+		>
 			<div
-				className={`w-12 h-12 rounded-lg flex items-center justify-center mb-5 border ${colors[color]} group-hover:scale-105 transition-transform duration-300`}
+				className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center mb-4 sm:mb-5 border ${colors[color]} group-hover:scale-105 transition-transform duration-300 flex-shrink-0`}
 			>
-				<Icon size={24} />
+				<Icon size={20} />
 			</div>
-			<h3 className='text-lg font-bold text-zinc-100 mb-3'>{title}</h3>
-			<p className='text-sm text-zinc-400 leading-relaxed'>{desc}</p>
-		</div>
+
+			<h3 className='text-base sm:text-lg font-bold text-zinc-100 mb-2 sm:mb-3'>
+				{title}
+			</h3>
+			<p className='text-sm sm:text-sm text-zinc-400 leading-relaxed mt-auto'>
+				{desc}
+			</p>
+		</article>
 	)
 }

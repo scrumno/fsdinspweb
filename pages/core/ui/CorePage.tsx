@@ -8,7 +8,6 @@ export const CorePage = () => {
 		<div className='space-y-12 animate-[fadeIn_0.5s_ease-out]'>
 			<SectionHeader title='Core' subtitle='Визуализация работы пакета' />
 
-			{/* Interactive Architecture Map */}
 			<ArchitectureGraph />
 
 			<div className='grid gap-16'>

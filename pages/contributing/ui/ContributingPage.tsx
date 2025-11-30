@@ -17,7 +17,7 @@ export default function ContributingPage(): JSX.Element {
 					</h3>
 					<CodeBlock
 						language='bash'
-						code={`git clone https://github.com/scrumno/d-insp-react.git
+						code={`git clone git@github.com:scrumno/d-insp-react.git
 cd d-insp-react
 npm install`}
 					/>
