@@ -1,6 +1,5 @@
 import { VersionBadge } from 'entities/package'
 import { Box, Play, ShieldCheck, Zap } from 'lucide-react'
-import React from 'react'
 import { FeatureCard } from 'shared/ui/feature-card/FeatureCard'
 import { CodeBlock } from 'widgets/code-block/ui/CodeBlock'
 
