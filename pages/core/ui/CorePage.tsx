@@ -13,7 +13,6 @@ export const CorePage = () => {
 			<div className='grid gap-16'>
 				{/* Section 1: Inspector Service */}
 				<section className='relative group'>
-					<div className='absolute -left-4 top-0 bottom-0 w-0.5 bg-linear-to-b from-blue-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity'></div>
 					<div className='space-y-4'>
 						<h3 className='text-xl font-bold text-blue-400 flex items-center gap-3'>
 							<div className='p-1.5 rounded-lg border border-blue-500/20'>
@@ -62,7 +61,6 @@ export const CorePage = () => {
 
 				{/* Section 2: Fetch Patching */}
 				<section className='relative group'>
-					<div className='absolute -left-4 top-0 bottom-0 w-0.5 bg-linear-to-b from-purple-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity'></div>
 					<div className='space-y-4'>
 						<div className='flex items-center justify-between'>
 							<h3 className='text-xl font-bold text-purple-400 flex items-center gap-3'>
@@ -120,7 +118,6 @@ export const CorePage = () => {
 
 				{/* Section 3: XHR Patching */}
 				<section className='relative group'>
-					<div className='absolute -left-4 top-0 bottom-0 w-[2px] bg-gradient-to-b from-yellow-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity'></div>
 					<div className='space-y-4'>
 						<h3 className='text-xl font-bold text-yellow-400 flex items-center gap-3'>
 							<div className='p-1.5 rounded-lg bg-yellow-500/10 border border-yellow-500/20'>
@@ -171,7 +168,6 @@ export const CorePage = () => {
 
 				{/* Section 4: Store & Batching */}
 				<section className='relative group'>
-					<div className='absolute -left-4 top-0 bottom-0 w-[2px] bg-gradient-to-b from-green-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity'></div>
 					<div className='space-y-4'>
 						<div className='flex items-center justify-between'>
 							<h3 className='text-xl font-bold text-green-400 flex items-center gap-3'>
