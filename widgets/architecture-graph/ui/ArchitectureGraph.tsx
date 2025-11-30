@@ -24,6 +24,7 @@ export const ArchitectureGraph: React.FC = () => {
 
 	return (
 		<div className='w-full bg-[#0e0e10] border border-white/10 rounded-xl overflow-hidden shadow-2xl flex flex-col mb-12'>
+			{/* Toolbar */}
 			<ArchitectureGraphToolbar mode={mode} setMode={setMode} />
 
 			{/* Canvas */}
@@ -273,7 +274,7 @@ export const ArchitectureGraph: React.FC = () => {
 
 							{/* The Batcher Machine */}
 							<div className='relative'>
-								<div className='absolute -inset-4 bg-linear-to-r from-yellow-500/10 to-transparent blur-xl rounded-full opacity-20'></div>
+								<div className='absolute -inset-4 bg-gradient-to-r from-yellow-500/10 to-transparent blur-xl rounded-full opacity-20'></div>
 								<div className='w-[400px] p-8 border border-yellow-500/30 rounded-2xl bg-[#0e0e10] relative shadow-[0_0_40px_-10px_rgba(234,179,8,0.1)]'>
 									<div className='flex items-center justify-between mb-6'>
 										<SectionLabel color='text-yellow-500'>
@@ -336,7 +337,7 @@ export const ArchitectureGraph: React.FC = () => {
 							</div>
 
 							<div className='flex items-center gap-2'>
-								<div className='w-12 h-0.5 bg-zinc-700'></div>
+								<div className='w-12 h-[2px] bg-zinc-700'></div>
 								<ArrowRight size={16} className='text-zinc-500' />
 							</div>
 
