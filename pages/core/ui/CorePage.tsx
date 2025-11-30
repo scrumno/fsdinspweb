@@ -1,4 +1,5 @@
-import { Badge, Layers, Layout, Share2, Terminal } from 'lucide-react'
+import { Layers, Layout, Share2, Terminal } from 'lucide-react'
+import { Badge } from 'shared/ui/badge/Badge'
 import { SectionHeader } from 'shared/ui/section-header/SectionHeader'
 import { ArchitectureGraph } from 'widgets/architecture-graph'
 import { CodeBlock } from 'widgets/code-block/ui/CodeBlock'
